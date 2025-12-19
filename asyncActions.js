@@ -78,7 +78,7 @@ const fetchUsers = () => {
   };
 };
 
-//Creating store
+//Creating store    
 const store = createStore(reducer, applyMiddleware(thunkMiddleware));
 
 //Subscribing
